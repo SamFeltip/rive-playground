@@ -17,7 +17,7 @@ export default function PlaygroundRive() {
     <div
       onMouseEnter={() => hoveredInput && (hoveredInput.value = true)}
       onMouseLeave={() => hoveredInput && (hoveredInput.value = false)}
-      style={{ width: '100%', height: '400px', cursor: 'pointer' }}
+      style={{ width: '100%', height: '100px', cursor: 'pointer' }}
     >
       <RiveComponent />
     </div>
